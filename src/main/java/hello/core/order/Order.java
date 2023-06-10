@@ -8,7 +8,7 @@ public class Order {
     private int discountPrice;
 
     public Order(Long memberId, String itemName, int itemPrice, int discountPrice) {
-        this.memberId = membe   rId;
+        this.memberId = memberId;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
         this.discountPrice = discountPrice;
